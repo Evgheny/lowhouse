@@ -767,4 +767,27 @@
   <script src="js/main.js"></script>
 
 </body>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+        apiKey: "AIzaSyALlJrdQDUB4pgMZ2LMvkqdIE-ITrqW3Mw",
+        authDomain: "lowhouse-mockup.firebaseapp.com",
+        projectId: "lowhouse-mockup",
+        storageBucket: "lowhouse-mockup.appspot.com",
+        messagingSenderId: "762139428049",
+        appId: "1:762139428049:web:40a507c9444dfa2d7c71f0",
+        measurementId: "G-3SM8XHP59X"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+</script>
 </html>
