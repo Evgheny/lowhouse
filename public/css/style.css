@@ -636,6 +636,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
+@media (max-width: 569px) {
+  .features-img {
+    display: none;
+  }
+}
+
 #features .features-img img {
   max-width: 100%;
 }
@@ -1174,7 +1180,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .info p {
-  padding: 0 0 10px 42px;
+  padding: 0 0 0px 42px;
   line-height: 28px;
   font-size: 14px;
 }
@@ -1228,6 +1234,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .form button[type="submit"]:hover {
   cursor: pointer;
+}
+
+.google-map {
+  width: 600px;
+  height: 250px;
+  border: 0;
+}
+
+@media (max-width: 576px) {
+  .google-map {
+    width: 100%;
+    height: 250px;
+    border: 0;
+  }
 }
 
 /*--------------------------------------------------------------
