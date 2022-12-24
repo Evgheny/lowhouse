@@ -4128,7 +4128,9 @@ b {
 @media (max-width: 1024px) {
   .homepage-header__inner {
     position: relative;
-    background-size: cover; } }
+    background-size: cover;
+    backdrop-filter: blur(8px);
+  } }
 .homepage-header__inner canvas {
   height: 100vh;
   width: auto;
@@ -4293,7 +4295,25 @@ b {
   height: 100%;
   font-weight: inherit;
   font-size: inherit;
-  display: block; }
+  display: block;
+  text-shadow:
+          -0   -1px 0   #000000,
+          0   -1px 0   #000000,
+          -0    1px 0   #000000,
+          0    1px 0   #000000,
+          -1px -0   0   #000000,
+          1px -0   0   #000000,
+          -1px  0   0   #000000,
+          1px  0   0   #000000,
+          -1px -1px 0   #000000,
+          1px -1px 0   #000000,
+          -1px  1px 0   #000000,
+          1px  1px 0   #000000,
+          -1px -1px 0   #000000,
+          1px -1px 0   #000000,
+          -1px  1px 0   #000000,
+          1px  1px 0   #000000;
+}
 .homepage-header__text__main span.split-lines {
   display: block; }
 .homepage-header.homepage-header--apply.secondary {
@@ -6457,7 +6477,8 @@ a:hover, button:hover, .button:hover, .cursor-change:hover {
           -1px -1px 0   #000000,
           1px -1px 0   #000000,
           -1px  1px 0   #000000,
-          1px  1px 0   #000000;}
+          1px  1px 0   #000000;
+}
 @media (max-width: 1300px) {
   .products-slider .bigtitle {
     margin-left: 4px; } }
