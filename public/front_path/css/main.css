@@ -6440,7 +6440,24 @@ a:hover, button:hover, .button:hover, .cursor-change:hover {
   margin-left: 10px;
   display: inline-block;
   font-weight: 300;
-  font-size: 1em; }
+  font-size: 1em;
+  text-shadow:
+          -0   -1px 0   #000000,
+          0   -1px 0   #000000,
+          -0    1px 0   #000000,
+          0    1px 0   #000000,
+          -1px -0   0   #000000,
+          1px -0   0   #000000,
+          -1px  0   0   #000000,
+          1px  0   0   #000000,
+          -1px -1px 0   #000000,
+          1px -1px 0   #000000,
+          -1px  1px 0   #000000,
+          1px  1px 0   #000000,
+          -1px -1px 0   #000000,
+          1px -1px 0   #000000,
+          -1px  1px 0   #000000,
+          1px  1px 0   #000000;}
 @media (max-width: 1300px) {
   .products-slider .bigtitle {
     margin-left: 4px; } }

@@ -1,461 +1,226 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap" rel="stylesheet">
+  <style> @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap'); </style>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="EPAC is the first and largest leasing and financing company to offer products specifically developed for international students and individuals with no prior / previous credit history. We also offer no SSN leases for individuals visiting the US on Visa.">
   <title>LowHouse</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
-
-  <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
-
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/aos/aos.css" rel="stylesheet">
-  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
-
-
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-    Theme Name: Avilon
-    Theme URL: https://bootstrapmade.com/avilon-bootstrap-landing-page-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
+  <link rel="stylesheet" href="front_path/css/main.css">
 </head>
-
 <body>
-
-  <!--==========================
-    Header
-  ============================-->
-  <header id="header">
+<header class="navigation-bar">
+  <div class="logo-wrapper">
+    <div class="logo-inner"><a class="logo" href="/"><img class="logo--desktop" src="front_path/img/logolh.png" alt="logo"><img class="logo--mobile" src="front_path/img/logolh.png" alt="small logo"></a></div>
+  </div>
+  <div class="link-wrapper"><a href="/apply-now">detailcenter</a></div>
+  <div class="button-wrapper">
+    <button class="button button--golden button--prev float--left js-target-products"><span>Back</span>
+      <div class="icon-wrapper">
+        <div class="icon-left-open-big"></div>
+      </div>
+      <svg class="circular-chart blue" viewBox="0 0 36 36">
+        <path class="circle" stroke-dasharray="84, 100" d="M18 2.0845          a 15.9155 15.9155 0 0 1 0 31.831          a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+      </svg>
+    </button>
+  </div>
+  <a class="menu-burger">
+  <div class="buns">
+    <div class="bun"></div>
+    <div class="bun"></div>
+  </div><span class="menu-burger__text"><span class="menu-burger__text__menu">Меню</span><span class="menu-burger__text__close">Закрыть</span></span></a>
+</header>
+<nav class="navigation-overlay" role="navigation">
+  <div class="navigation-overlay__item navigation-overlay__item--left">
+    <div class="navigation-overlay__skew">
+      <div class="navigation-overlay__content">
+        <div class="navigation-overlay__slider" data-component="cutted-menu" data-pieces-count="16" data-rotation-angle="120" data-transition-time="0.3" data-velocity="13000" data-image-src="front_path/img/menu/menu-home.png,front_path/img/menu/menu-products.png,front_path/img/menu/menu-apply-now.png,front_path/img/menu/menu-black-card.png,front_path/img/menu/menu-about-us.png,front_path/img/menu/menu-lease.png,front_path/img/menu/menu-finance.png,front_path/img/menu/menu-title.png"></div>
+      </div>
+    </div>
+  </div>
+  <div class="navigation-overlay__item navigation-overlay__item--right">
+    <div class="navigation-overlay__skew">
+      <div class="navigation-overlay__content">
+        <div class="navigation-links js-main-menu">
+          <div class="navigation-links__wrapper"><a class="navigation-links__item current" href="/" data-target="0"><span class="navigation-links__item__number">01</span><span class="navigation-links__item__link">Home</span></a><a class="navigation-links__item js-target-products " href="/#products" data-target="1"><span class="navigation-links__item__number">02</span><span class="navigation-links__item__link">Products</span></a><a class="navigation-links__item" href="/apply-now" data-target="2"><span class="navigation-links__item__number">03</span><span class="navigation-links__item__link">Apply Now</span></a><a class="navigation-links__item" href="/black-card" data-target="3"><span class="navigation-links__item__number">04</span><span class="navigation-links__item__link">Black Card</span></a><a class="navigation-links__item" href="/about-us" data-target="4"><span class="navigation-links__item__number">05</span><span class="navigation-links__item__link">About Us</span></a></div>
+        </div>
+        <div class="navigation-links js-products">
+          <div class="navigation-links__wrapper"><a class="navigation-links__item" href="/product/lease" data-target="5"><span class="navigation-links__item__number">01</span><span class="navigation-links__item__link">Lease</span></a><a class="navigation-links__item" href="/product/finance" data-target="6"><span class="navigation-links__item__number">02</span><span class="navigation-links__item__link">Finance</span></a><a class="navigation-links__item" href="/product/title-loan" data-target="7"><span class="navigation-links__item__number">03</span><span class="navigation-links__item__link">Title Loan</span></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navigation-overlay__title">Menu</div>
+</nav>
+<div class="loader-overlay">
+  <div class="loader-overlay__flash"></div>
+  <div class="button-loader"><span>
+          <div class="inner">загрузка</div></span>
+    <svg class="circular-chart blue" viewBox="0 0 36 36">
+      <path class="circle grey" fill: #111 stroke-dasharray="88, 100" d="M18 2.0845        a 15.9155 15.9155 0 0 1 0 31.831        a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+      <path class="circle golden" fill: #111 stroke-dasharray="88, 100" d="M18 2.0845        a 15.9155 15.9155 0 0 1 0 31.831        a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+    </svg>
+  </div>
+</div><main>
+  <section class="homepage-header">
     <div class="container">
-
-      <div id="logo" class="pull-left">
-        <h1><a href="#intro" class="scrollto logo"><img class="logo-lh" src="img/logolh.png"></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></img></a> -->
+      <div class="container">
+        <div class="homepage-header__text">
+          <h3 class="homepage-header__text__caption caption golden">LOW HOUSE DETAILING</h3>
+          <div class="homepage-header__text__main">
+            <h1 class="homepage-header__text__main__absolute-wrapper clip-skew">Премиальная <br> дитэйлинг студия</h1>
+            <h1 class="homepage-header__text__main__absolute-wrapper clip-skew">Индивидаульный подход к каждому автомобилю</h1>
+          </div>
+        </div>
       </div>
-
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li class="menu-active"><a href="#intro">Главная</a></li>
-          <li><a href="#about">О нас</a></li>
-          <li><a href="#features">Приемущества</a></li>
-          <li><a href="#pricing">Цены</a></li>
-          <li><a href="#gallery">Галерея</a></li>
-          <li><a href="#contact">Контакты</a></li>
-        </ul>
-      </nav><!-- #nav-menu-container -->
     </div>
-  </header><!-- #header -->
-
-  <!--==========================
-    Intro Section
-  ============================-->
-  <section id="intro">
-
-    <div class="intro-text">
-      <h2>Welcome to LowHouse</h2>
-      <p>We are team of talanted detailers from Moldova</p>
-      <a href="#about" class="btn-get-started scrollto">Познакомтесь с нами</a>
+    <div class="homepage-header__inner cutted" data-component="background-image" data-image-src="front_path/img/background-header.jpg" style="background-image: url(front_path/img/background-header.jpg)">
+      <div class="side-phone"><a class="side-phone__link" href="tel:++37368387877"><span class="side-phone__link__text">Позвони нам</span><span class="side-phone__link__number">+373 68 387 877</span></a></div>
+      <div class="slider-controls">
+        <div class="slider-controls__number slider-controls__number--current">01</div>
+        <div class="slider-controls__line"></div>
+        <div class="slider-controls__number slider-controls__number--all">02</div>
+      </div>
+      <div class="container">
+        <div class="container">
+          <div class="homepage-header__image" data-component="image-slider" data-type="header" data-pieces-count="12" data-rotation-angle="120" data-transition-time="0.5" data-velocity="13000" data-image-src="front_path/img/try/car-1.png,front_path/img/try/car-2.jpg">
+            <div class="homepage-header__image__overlay"></div>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <div class="product-screens">
-
-      <div class="product-screen-1" data-aos="fade-up" data-aos-delay="400">
-        <img src="img/product-screen-2.jpg" style="width: 314px" alt="">
-      </div>
-
-      <div class="product-screen-2" data-aos="fade-up" data-aos-delay="200">
-        <img src="img/product-screen-3.webp" style="width: 314px" alt="">
-      </div>
-
-      <div class="product-screen-3" data-aos="fade-up">
-        <img src="img/product-screen-1.jpg" style="width: 314px" alt="">
-      </div>
-
-    </div>
-
-  </section><!-- #intro -->
-
-  <main id="main">
-
-    <!--==========================
-      About Us Section
-    ============================-->
-    <section id="about" class="section-bg">
-      <div class="container-fluid">
-        <div class="section-header">
-          <h3 class="section-title">О нас</h3>
-          <span class="section-divider"></span>
-          <p class="section-description">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque<br>
-            sunt in culpa qui officia deserunt mollit anim id est laborum
-          </p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6 about-img" data-aos="fade-right">
-            <img src="img/about-img.jpg" alt="">
-          </div>
-
-          <div class="col-lg-6 content" data-aos="fade-left">
-            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elite storium paralate</h2>
-            <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Libero justo laoreet sit amet cursus sit amet dictum sit. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- #about -->
-
-    <!--==========================
-      Product Featuress Section
-    ============================-->
-    <section id="features">
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-lg-8 offset-lg-4">
-            <div class="section-header" data-aos="fade" data-aos-duration="1000">
-              <h3 class="section-title">Почему LowHouse</h3>
-              <span class="section-divider"></span>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-5 features-img">
-            <img src="img/product-features.jpg" alt="" data-aos="fade-right" data-aos-easing="ease-out-back">
-          </div>
-
-          <div class="col-lg-8 col-md-7">
-
-            <div class="row">
-
-              <div class="col-lg-6 col-md-6 box" data-aos="fade-left">
-                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
-                <h4 class="title"><a href="">Выская скорость работы</a></h4>
-                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident clarida perendo.</p>
-              </div>
-              <div class="col-lg-6 col-md-6 box" data-aos="fade-left" data-aos-delay="100">
-                <div class="icon"><i class="ion-ios-flask-outline"></i></div>
-                <h4 class="title"><a href="">Профессиональная химия</a></h4>
-                <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata noble dynala mark.</p>
-              </div>
-              <div class="col-lg-6 col-md-6 box" data-aos="fade-left" data-aos-delay="200">
-                <div class="icon"><i class="ion-social-buffer-outline"></i></div>
-                <h4 class="title"><a href="">Оборудованное место</a></h4>
-                <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur teleca starter sinode park ledo.</p>
-              </div>
-              <div class="col-lg-6 col-md-6 box" data-aos="fade-left" data-aos-delay="300">
-                <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-                <h4 class="title"><a href="">Опытная команда</a></h4>
-                <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum dinoun trade capsule.</p>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- #features -->
-
-    <!--==========================
-      Brands
-    ============================-->
-    <section id="clients">
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-md-2 col-4">
-            <img src="img/clients/client-1.png" alt="" data-aos="fade-up">
-          </div>
-
-          <div class="col-md-2 col-4">
-            <img src="img/clients/client-2.png" alt="" data-aos="fade-up">
-          </div>
-
-          <div class="col-md-2 col-4">
-            <img src="img/clients/client-3.png" alt="" data-aos="fade-up">
-          </div>
-
-          <div class="col-md-2 col-4">
-            <img src="img/clients/client-4.png" alt="" data-aos="fade-up">
-          </div>
-
-          <div class="col-md-2 col-4">
-            <img src="img/clients/client-5.png" alt="" data-aos="fade-up">
-          </div>
-
-          <div class="col-md-2 col-4">
-            <img src="img/clients/client-6.png" alt="" data-aos="fade-up">
-          </div>
-
-        </div>
-      </div>
-    </section><!-- #more-features -->
-
-    <!--==========================
-      Pricing Section
-    ============================-->
-    <section id="pricing" class="section-bg">
-      <div class="container">
-
-        <div class="section-header">
-          <h3 class="section-title">Цены</h3>
-          <span class="section-divider"></span>
-          <p class="section-description">Ниже представленны стартовые цены, для более подробной цены свяжитесь с нами.</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="box" data-aos="fade-right">
-              <h3>Керамика</h3>
-              <h4><span>от </span>250<sup>$</sup></h4>
-              <ul>
-                <li><i class="ion-android-checkmark-circle"></i> Quam adipiscing vitae proin</li>
-                <li><i class="ion-android-checkmark-circle"></i> Nec feugiat nisl pretium</li>
-                <li><i class="ion-android-checkmark-circle"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="ion-android-checkmark-circle"></i> Pharetra massa massa ultricies</li>
-                <li><i class="ion-android-checkmark-circle"></i> Massa ultricies mi quis hendrerit</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="box" data-aos="fade-up">
-              <h3>Полировка</h3>
-              <h4><span>от </span>150<sup>$</sup></h4>
-              <ul>
-                <li><i class="ion-android-checkmark-circle"></i> Quam adipiscing vitae proin</li>
-                <li><i class="ion-android-checkmark-circle"></i> Nec feugiat nisl pretium</li>
-                <li><i class="ion-android-checkmark-circle"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="ion-android-checkmark-circle"></i> Pharetra massa massa ultricies</li>
-                <li><i class="ion-android-checkmark-circle"></i> Massa ultricies mi quis hendrerit</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="box" data-aos="fade-left">
-              <h3>Химчистка</h3>
-              <h4><span>от </span>120<sup>$</sup></h4>
-              <ul>
-                <li><i class="ion-android-checkmark-circle"></i> Quam adipiscing vitae proin</li>
-                <li><i class="ion-android-checkmark-circle"></i> Nec feugiat nisl pretium</li>
-                <li><i class="ion-android-checkmark-circle"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="ion-android-checkmark-circle"></i> Pharetra massa massa ultricies</li>
-                <li><i class="ion-android-checkmark-circle"></i> Massa ultricies mi quis hendrerit</li>
-              </ul>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section><!-- #pricing -->
-
-
-
-    <!--==========================
-      Gallery Section
-    ============================-->
-    <section id="gallery">
-      <div class="container-fluid">
-        <div class="section-header">
-          <h3 class="section-title">Наши работы</h3>
-          <span class="section-divider"></span>
-        </div>
-
-        <div class="row no-gutters">
-          <div class="col-lg-4 col-md-6 col-sm-6 col-6">
-            <div class="gallery-item" data-aos="fade-up">
-              <a href="https://www.instagram.com/p/Cl-rRgTDpoI/">
-                <img src="img/gallery/gallery-1.jpg" alt="">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 col-sm-6 col-6">
-            <div class="gallery-item" data-aos="fade-up">
-              <a href="https://www.instagram.com/p/Cla-XICDTrW/">
-                <img src="img/gallery/gallery-2.jpg" alt="">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 col-sm-6 col-6">
-            <div class="gallery-item" data-aos="fade-up">
-              <a href="https://www.instagram.com/p/CizgfsmDeh4/">
-                <img src="img/gallery/gallery-3.jpg" alt="">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 col-sm-6 col-6">
-            <div class="gallery-item" data-aos="fade-up">
-              <a href="https://www.instagram.com/p/Cghi-VPNUNs/">
-                <img src="img/gallery/gallery-4.jpg" alt="">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 col-sm-6 col-6">
-            <div class="gallery-item" data-aos="fade-up">
-              <a href="https://www.instagram.com/p/CdXv-7qjVcx/">
-                <img src="img/gallery/gallery-5.jpg" alt="">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 col-sm-6 col-6">
-            <div class="gallery-item" data-aos="fade-up">
-              <a href="https://www.instagram.com/p/Cegjx8YDNNB/">
-                <img src="img/gallery/gallery-6.jpg" alt="">
-              </a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- #gallery -->
-
-    <!--==========================
-      Contact Section
-    ============================-->
-    <section id="contact">
-      <div class="container">
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-4 col-md-4">
-            <div class="contact-about">
-              <h3>LowHouse</h3>
-              <p>Cras fermentum odio eu feugiat. Justo eget magna fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
-              <div class="social-links">
-                <a href="https://www.instagram.com/lowhouse_garage/" class="instagram"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#" class="twitter"><i class="fa-brands fa-tiktok"></i></a>
-                <a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="info">
-              <div>
-                <i class="ion-ios-location-outline"></i>
-                <p>sos. Muncesti 799<br>Chisinau, Moldova</p>
-              </div>
-
-              <div>
-                <i class="ion-ios-email-outline"></i>
-                <p>info@low-house.md</p>
-              </div>
-
-              <div>
-                <i class="ion-ios-telephone-outline"></i>
-                <p>+373 68 387 877</p>
-              </div>
-
-              <div>
-                <i class="ion-ios-clock-outline"></i>
-                <p>08:00 - 18:00</p>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col-lg-5 col-md-8">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1619.7845183816157!2d28.949989295243867!3d46.93924836515639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c977f2496d7faf%3A0x8905a3dbb023686a!2sLowHouse%20Garage!5e0!3m2!1sru!2s!4v1671783174431!5m2!1sru!2s" class="google-map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- #contact -->
-
-  </main>
-
-  <!--==========================
-    Footer
-  ============================-->
-  <footer id="footer">
+  </section>
+  <section class="products-slider">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-6 text-lg-left text-center">
-          <div class="copyright">
-            &copy; Copyright <strong>LowHouse</strong>. 2022
-          </div>
-          <div class="credits">
-            Designed by <a href="https://lowhouse-mockup.web.app/">LowHouse</a>
-          </div>
+      <div class="text-wrapper">
+        <h3 class="caption products-slider__caption golden">чем мы занимаемся</h3>
+        <h2 class="products-slider__heading big-heading">Услуги</h2>
+      </div>
+      <div class="fleet-wrapper">
+        <div class="fleet-slider js-unfix-header"><a class="fleet-slider__item first" href="/product/lease">
+          <div class="fleet-slider-img" style="background-image: url(front_path/img/lease.webp)">
+            <div class="fleet-slider__textg"><span class="caption golden">01</span><h3 class="bigtitle">Полировка</h3></div>
+          </div></a><a class="fleet-slider__item" href="/product/finance">
+          <div class="fleet-slider-img" style="background-image: url(front_path/img/finance.jpg)">
+            <div class="fleet-slider__textg"><span class="caption golden">02</span><h3 class="bigtitle">Тюннинг</h3></div>
+          </div></a><a class="fleet-slider__item last" href="/product/title-loan">
+          <div class="fleet-slider-img" style="background-image: url(front_path/img/loan.jpg)">
+            <div class="fleet-slider__textg"><span class="caption golden">03</span><h3 class="bigtitle">Диски</h3></div>
+          </div></a></div>
+      </div>
+    </div>
+  </section><section class="skew-banner skew-banner--right skew-banner--card">
+  <div class="container position-relative">
+    <div class="skew-banner-content">
+      <div class="skew-banner-text">
+        <h3 class="caption skew-banner-text__caption">LowHOUSE quality</h3>
+        <h2 class="skew-banner-text__main">Гарантия</h2>
+        <p class="skew-banner-text__secondary">Мы выдаем гарантию на определенный тип проделанных работ.</p>
+      </div>
+    </div>
+  </div>
+  <div class="skew-banner__overlay" style="background-image: url(front_path/img/banner-background-detail.jpg)">
+    <div class="skew-banner__overlay__cut right"></div>
+  </div><img class="skew-banner__image js-frombot-transition" src="front_path/img/credit-card.png" alt="evan paul credit card">
+</section>
+  <section class="homepage-text">
+    <div class="homepage-text__wrapper">
+      <div class="container">
+        <h3 class="homepage-text__caption caption golden js-opacity-transition">кто мы такие</h3>
+        <h2 class="homepage-text__heading js-opacity-translate">LowHOUSE специализируется не только на <span class="golden">дитэйлинге</span> авто.</h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="image-block">
+        <div class="image-block__item image-block__item--left" data-component="image-cutter" data-rotation-angle="120" data-pieces-count="5" data-amplitude="10" data-velocity="13000" data-image-src="front_path/img/about-us.jpg"></div>
+        <div class="image-block__item image-block__item--right">
+          <p class="js-clip-transition">Наша команда более 10 лет работает на восстановлением, а так же подбором дисков под вас. У нас вы можете не только сделать дитэйдинг авто, но еще преобрести диски, обвес или тюннинг детали на ваш авто.</p><a class="button button--golden js-opacity-transition" href="/about-us"><span class="span--black">узнать больше</span>
+          <svg class="circular-chart blue" viewBox="0 0 36 36">
+            <path class="circle" stroke-dasharray="84, 100" d="M18 2.0845              a 15.9155 15.9155 0 0 1 0 31.831              a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+          </svg></a>
         </div>
       </div>
     </div>
-  </footer><!-- #footer -->
+  </section>
+  <section class="about-car">
+    <div class="about-car-top">
+      <div class="container">
+        <div class="h2 about-car-top__heading big-heading js-opacity-transition">lowhouse</div>
+      </div>
+    </div>
+    <div class="about-car-bottom"><img class="about-car-bottom__img js-frombot-transition" src="front_path/img/bottom-car.png" alt="car"></div>
+  </section>
+  <section class="footer footer--extra-padding-top">
+    <div class="footer-top">
+      <div class="footer-top__wrapper">
+        <div class="footer-top__caption caption golden js-opacity-transition">Позвони нам</div><a class="footer-top__number js-opacity-translate" href="tel:+37368387877">+373 68 387 877</a>
+      </div><a class="button button--golden js-opacity-transition" href="/about-us#contact-us"><span>Наши контакты</span>
+      <svg class="circular-chart blue" viewBox="0 0 36 36">
+        <path class="circle" stroke-dasharray="84, 100" d="M18 2.0845          a 15.9155 15.9155 0 0 1 0 31.831          a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+      </svg></a>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="footer-links">
+          <button class="button button--grey button--small js-scroll-to-top halfed"><span class="icon-up-open-big"></span>
+            <svg class="circular-chart blue" viewBox="0 0 36 36">
+              <path class="circle" stroke-dasharray="84, 100" d="M18 2.0845              a 15.9155 15.9155 0 0 1 0 31.831              a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+            </svg>
+          </button>
+          <a class="footer-links__logo halfed" href="/"><img src="front_path/img/logolh.png" alt="small logo"></a>
+          <div class="footer-links__item"><a class="halfed" href="/">Главная</a></div>
+          <div class="footer-links__item"><a class="halfed js-footer-open-menu" href="/#">Услуги</a></div>
+          <div class="footer-links__item"><a class="halfed" href="/about-us">О нас</a></div>
+        </div>
+        <div class="footer-privacy"> © 2023 LowHOUSE
+        </div>
+      </div>
+    </div>
+  </section></main>
+<div class="circle-cursor circle-cursor--inner"></div>
+<div class="circle-cursor circle-cursor--outer"></div>
+<script>
+    window.onload = function(){
+        setTimeout(function(){
+            document.body.classList.add("loaded");
+        }, 50);
+    };
+</script>
+<script src="front_path/js/vendor/polyfill.min.js"></script>
+<script src="front_path/js/vendor/jquery.min.js"></script>
+<script>
+    $(function () {
+        $.nette.init();
+    });
+</script>
+<script src="front_path/js/vendor/date-picker.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.8.6/pixi.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pixi-filters@2.6.1/dist/pixi-filters.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/debug.addIndicators.js"></script>
+<script src="front_path/js/main.js"></script>
+<script src="front_path/js/netteForms.js"></script>
+<script src="front_path/js/nette.ajax.js"></script>
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-69629556-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [] ;
+    function gtag(){
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/aos/aos.js"></script>
-  <script src="lib/superfish/hoverIntent.js"></script>
-  <script src="lib/superfish/superfish.min.js"></script>
-  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
-  <script src="https://kit.fontawesome.com/6da2cfdedf.js" crossorigin="anonymous"></script>
+    gtag('config', 'UA-69629556-2');
+</script>
 
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
 
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
 
 </body>
-<script type="module">
-    // Import the functions you need from the SDKs you need
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
-    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js";
-    // TODO: Add SDKs for Firebase products that you want to use
-    // https://firebase.google.com/docs/web/setup#available-libraries
-
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-    const firebaseConfig = {
-        apiKey: "AIzaSyALlJrdQDUB4pgMZ2LMvkqdIE-ITrqW3Mw",
-        authDomain: "lowhouse-mockup.firebaseapp.com",
-        projectId: "lowhouse-mockup",
-        storageBucket: "lowhouse-mockup.appspot.com",
-        messagingSenderId: "762139428049",
-        appId: "1:762139428049:web:40a507c9444dfa2d7c71f0",
-        measurementId: "G-3SM8XHP59X"
-    };
-
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-    const analytics = getAnalytics(app);
-</script>
 </html>
