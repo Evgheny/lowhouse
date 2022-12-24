@@ -8,7 +8,9 @@
 
 body {
   font-family: 'Exo 2', sans-serif;
-  display: block; }
+  display: block;
+  color: #5f5f5f !important;
+}
 
 body.loaded .homepage-header__text__caption {
   opacity: 0.999; }
