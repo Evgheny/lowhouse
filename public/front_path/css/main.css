@@ -5848,13 +5848,14 @@ body {
 }
 
 @font-face {
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'fontello';
+    src: url("../fonts/fontello.eot");
+    src: url("../fonts/fontello.eot") format("embedded-opentype"), url("../fonts/fontello.woff2") format("woff2"), url("../fonts/fontello.woff") format("woff"), url("../fonts/fontello.ttf") format("truetype"), url("../fonts/fontello.svg") format("svg");
     font-weight: normal;
-    font-style: normal;
-}
+    font-style: normal; }
 
 [class^="icon-"]:before, [class*=" icon-"]:before {
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'fontello';
     font-style: normal;
     font-weight: normal;
     speak: none;
@@ -7766,7 +7767,7 @@ button.button--small:hover svg, a.button--small:hover svg {
 
 .homepage-text .image-block__item {
     float: left;
-    width: 50%;
+    width: 100%;
 }
 
 @media (max-width: 1024px) {
@@ -9345,6 +9346,14 @@ a:hover, button:hover, .button:hover, .cursor-change:hover {
 
 .benefits-list--centered {
     max-width: 868px;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+    margin-top: 246px;
+}
+
+.benefits-list--centered---gallery {
+    max-width: 70%;
     margin: 0 auto;
     display: block;
     overflow: hidden;
@@ -11331,4 +11340,61 @@ form .group.onerow input {
 
 .datepicker-hide {
     display: none;
+}
+
+.gallery {
+    display: flex;
+    padding: 2px;
+    transition: 0.3s;
+}
+
+.gallery:hover .gallery__image {
+    filter: grayscale(1);
+}
+
+.gallery__column {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.gallery__link {
+    margin: 2px;
+    overflow: hidden;
+}
+
+.gallery__link:hover .gallery__image {
+    filter: grayscale(0);
+}
+
+.gallery__link:hover .gallery__caption {
+    opacity: 1;
+}
+
+.gallery__thumb {
+    position: relative;
+}
+
+.gallery__image {
+    display: block;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.gallery__image:hover {
+    transform: scale(1.1);
+}
+
+.gallery__caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 25px 15px 15px;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: white;
+    opacity: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, .5) 0%, rgba(255, 255, 255, 0) 100%);
+    transition: 0.3s;
 }
