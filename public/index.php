@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -25,7 +24,7 @@
         <div class="icon-left-open-big"></div>
       </div>
       <svg class="circular-chart blue" viewBox="0 0 36 36">
-        <path class="circle" stroke-dasharray="84, 100" d="M18 2.0845          a 15.9155 15.9155 0 0 1 0 31.831          a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+        <path class="circle" stroke-dasharray="84, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"></path>
       </svg>
     </button>
   </div>
@@ -79,7 +78,7 @@
         </div>
       </div>
     </div>
-    <div class="homepage-header__inner cutted" data-component="background-image" data-image-src="front_path/img/background-header.jpg" style="background-image: url(front_path/img/background-header.jpg)">
+    <div class="homepage-header__inner cutted" data-component="background-image" data-image-src="front_path/img/background-header1.jpg" style="background-image: url(front_path/img/background-header1.jpg)">
       <div class="side-phone"><a class="side-phone__link" href="tel:++37368387877"><span class="side-phone__link__text">Позвони нам</span><span class="side-phone__link__number">+373 68 387 877</span></a></div>
       <div class="slider-controls">
         <div class="slider-controls__number slider-controls__number--current">01</div>
