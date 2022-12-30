@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap" rel="stylesheet">
+  <style> @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap'); </style>
+  <link type="image/x-icon" href="front_path/img/favicon.png" rel="shortcut icon">
+  <link type="Image/x-icon" href="front_path/img/favicon.png" rel="icon">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="LowHOUSE detailing, Moldova, Chisinau.">
+  <title>LowHouse</title>
+  <link rel="stylesheet" href="front_path/css/main.css">
+</head>
+<body>
+<header class="navigation-bar">
+  <div class="logo-wrapper">
+    <div class="logo-inner">
+      <a class="logo" href="/"><img class="logo--desktop" src="front_path/img/logolh.png" alt="logo"><img class="logo--mobile" src="front_path/img/logolh.png" alt="small logo"></a>
+    </div>
+  </div>
+  <div class="link-wrapper"><a href="#">detailcenter</a></div>
+  <div class="button-wrapper">
+    <button class="button button--golden button--prev float--left js-target-products"><span>Назад</span>
+      <div class="icon-wrapper">
+        <div class="icon-left-open-big"></div>
+      </div>
+      <svg class="circular-chart blue" viewBox="0 0 36 36">
+        <path class="circle" stroke-dasharray="84, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+      </svg>
+    </button>
+  </div>
+  <a class="menu-burger">
+    <div class="buns">
+      <div class="bun"></div>
+      <div class="bun"></div>
+    </div>
+    <span class="menu-burger__text">
+      <span class="menu-burger__text__menu">Меню</span>
+      <span class="menu-burger__text__close">Закрыть</span>
+    </span>
+  </a>
+</header>
+<nav class="navigation-overlay" role="navigation">
+  <div class="navigation-overlay__item navigation-overlay__item--left">
+    <div class="navigation-overlay__skew">
+      <div class="navigation-overlay__content">
+        <div class="navigation-overlay__slider"
+             data-component="cutted-menu"
+             data-pieces-count="16"
+             data-rotation-angle="120"
+             data-transition-time="0.3"
+             data-velocity="13000"
+             data-image-src="front_path/img/menu/menu-home.png,front_path/img/menu/menu-services.png,front_path/img/menu/menu-about-us.png,front_path/img/menu/menu-detailing.png,front_path/img/menu/menu-tuning.png,front_path/img/menu/menu-wheels.png">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navigation-overlay__item navigation-overlay__item--right">
+    <div class="navigation-overlay__skew">
+      <div class="navigation-overlay__content">
+        <div class="navigation-links js-main-menu">
+          <div class="navigation-links__wrapper">
+            <a class="navigation-links__item current" href="/" data-target="0">
+              <span class="navigation-links__item__number">01</span>
+              <span class="navigation-links__item__link">Главная</span>
+            </a>
+            <a class="navigation-links__item js-target-products " href="/services" data-target="1">
+              <span class="navigation-links__item__number">02</span>
+              <span class="navigation-links__item__link">Услуги</span>
+            </a>
+            <a class="navigation-links__item" href="/gallery" data-target="2">
+              <span class="navigation-links__item__number">03</span>
+              <span class="navigation-links__item__link">Наши работы</span>
+            </a>
+          </div>
+        </div>
+        <div class="navigation-links js-products">
+          <div class="navigation-links__wrapper">
+            <a class="navigation-links__item" href="/services/detail" data-target="3">
+              <span class="navigation-links__item__number">01</span>
+              <span class="navigation-links__item__link">Детэйлинг</span>
+            </a>
+            <a class="navigation-links__item" href="/services/tuning" data-target="4">
+              <span class="navigation-links__item__number">02</span>
+              <span class="navigation-links__item__link">Тюннинг</span>
+            </a>
+            <a class="navigation-links__item" href="/services/wheels" data-target="5">
+              <span class="navigation-links__item__number">03</span>
+              <span class="navigation-links__item__link">Диски</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navigation-overlay__title">Меню</div>
+</nav>
+<div class="loader-overlay">
+  <div class="loader-overlay__flash"></div>
+  <div class="button-loader"><span>
+          <div class="inner">загрузка</div></span>
+    <svg class="circular-chart blue" viewBox="0 0 36 36">
+      <path class="circle grey" fill: #111 stroke-dasharray="88, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+      <path class="circle golden" fill: #111 stroke-dasharray="88, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+    </svg>
+  </div>
+</div>
+<main>
+  <section class="homepage-header">
+    <div class="container">
+      <div class="container">
+        <div class="homepage-header__text">
+          <h3 class="homepage-header__text__caption caption golden">LOW HOUSE DETAILING</h3>
+          <div class="homepage-header__text__main">
+            <h1 class="homepage-header__text__main__absolute-wrapper clip-skew">Премиальная <br> дитэйлинг студия</h1>
+            <h1 class="homepage-header__text__main__absolute-wrapper clip-skew">Индивидаульный подход к каждому автомобилю</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="homepage-header__inner cutted" data-component="background-image" data-image-src="front_path/img/background-header1.jpg" style="background-image: url(front_path/img/background-header1.jpg)">
+      <div class="side-phone">
+        <a class="side-phone__link" href="tel:++37368387877">
+          <span class="side-phone__link__text">Позвони нам</span>
+          <span class="side-phone__link__number">+373 68 387 877</span>
+        </a>
+      </div>
+      <div class="slider-controls">
+        <div class="slider-controls__number slider-controls__number--current">01</div>
+        <div class="slider-controls__line"></div>
+        <div class="slider-controls__number slider-controls__number--all">02</div>
+      </div>
+      <div class="container">
+        <div class="container">
+          <div class="homepage-header__image" data-component="image-slider" data-type="header" data-pieces-count="12" data-rotation-angle="120" data-transition-time="0.5" data-velocity="13000" data-image-src="front_path/img/try/car-1.png,front_path/img/try/car-2.jpg">
+            <div class="homepage-header__image__overlay"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="products-slider">
+    <div class="container">
+      <div class="text-wrapper">
+        <h3 class="caption products-slider__caption golden">чем мы занимаемся</h3>
+        <h2 class="products-slider__heading big-heading">Услуги</h2>
+      </div>
+      <div class="fleet-wrapper">
+        <div class="fleet-slider js-unfix-header">
+          <a class="fleet-slider__item first" href="/services/detail">
+            <div class="fleet-slider-img" style="background-image: url(front_path/img/lease.png)">
+              <div class="fleet-slider__textg">
+                <span class="caption golden">01</span>
+                <h3 class="bigtitle">Детэйлинг</h3>
+              </div>
+            </div>
+          </a>
+          <a class="fleet-slider__item" href="/services/tuning">
+            <div class="fleet-slider-img" style="background-image: url(front_path/img/finance.jpg)">
+              <div class="fleet-slider__textg">
+                <span class="caption golden">02</span>
+                <h3 class="bigtitle">Тюннинг</h3>
+              </div>
+            </div>
+          </a>
+          <a class="fleet-slider__item last" href="/services/wheels">
+            <div class="fleet-slider-img" style="background-image: url(front_path/img/loan.jpg)">
+              <div class="fleet-slider__textg">
+                <span class="caption golden">03</span>
+                <h3 class="bigtitle">Диски</h3>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="skew-banner skew-banner--right skew-banner--card">
+    <div class="container position-relative">
+      <div class="skew-banner-content">
+        <div class="skew-banner-text">
+          <h3 class="caption skew-banner-text__caption">LowHOUSE quality</h3>
+          <h2 class="skew-banner-text__main">Гарантия</h2>
+          <p class="skew-banner-text__secondary">Мы выдаем гарантию на определенный тип проделанных работ.</p>
+        </div>
+      </div>
+    </div>
+    <div class="skew-banner__overlay" style="background-image: url(front_path/img/banner-background-detail.jpg)">
+      <div class="skew-banner__overlay__cut right"></div>
+    </div>
+    <img class="skew-banner__image js-frombot-transition" src="front_path/img/credit-card.png" alt="evan paul credit card">
+  </section>
+  <section class="homepage-text">
+    <div class="homepage-text__wrapper">
+      <div class="container">
+        <h3 class="homepage-text__caption caption golden js-opacity-transition">кто мы такие</h3>
+        <h2 class="homepage-text__heading js-opacity-translate">LowHOUSE специализируется не только на
+          <span class="golden">дитэйлинге</span> авто.</h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="image-block">
+        <div class="image-block__item image-block__item--left" data-component="image-cutter" data-rotation-angle="120" data-pieces-count="5" data-amplitude="10" data-velocity="13000" data-image-src="front_path/img/about-us.jpg"></div>
+        <div class="image-block__item image-block__item--right">
+          <p class="js-clip-transition">Наша команда более 10 лет работает с автомобилями, автомобили которые за года
+            собрали кубки на самых больших авто-выстовках Украины, Румынии и даже Польши.
+            За такое количество лет мы уже знаем как подобрать вам красивые диски,
+            обвесы, подвеску и.т.д чтобы ваше авто выделялось из потока и притягивало взгляды людей.
+            После стольких лет опыта мы пришли и в сферу детейлинг услуг, чтобы была возможность даже самому простому
+            автомобилю придать вид и блеск как у выставочных экспонатов.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about-car">
+    <div class="about-car-top">
+      <div class="container">
+        <div class="h2 about-car-top__heading big-heading js-opacity-transition">lowhouse</div>
+      </div>
+    </div>
+    <div class="about-car-bottom">
+      <img class="about-car-bottom__img js-frombot-transition" src="front_path/img/bottom-car.png" alt="car"></div>
+  </section>
+  <section class="footer footer--extra-padding-top">
+    <div class="footer-top">
+      <div class="footer-top__wrapper">
+        <div class="footer-top__caption caption golden js-opacity-transition">Позвони нам</div>
+        <a class="footer-top__number js-opacity-translate" href="tel:+37368387877">+373 68 387 877</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="footer-links">
+          <button class="button button--grey button--small js-scroll-to-top halfed">
+            <span class="icon-up-open-big"></span>
+            <svg class="circular-chart blue" viewBox="0 0 36 36">
+              <path class="circle" stroke-dasharray="84, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+            </svg>
+          </button>
+          <a class="footer-links__logo halfed" href="/"><img src="front_path/img/logolh.png" alt="small logo"></a>
+          <div class="footer-links__item"><a class="halfed" href="/">Главная</a></div>
+          <div class="footer-links__item"><a class="halfed" href="/gallery">О нас</a></div>
+        </div>
+        <div class="footer-privacy"> © 2023 LowHOUSE</div>
+      </div>
+    </div>
+  </section>
+</main>
+<div class="circle-cursor circle-cursor--inner"></div>
+<div class="circle-cursor circle-cursor--outer"></div>
+<script>
+  window.onload = function () {
+    setTimeout(function () {
+      document.body.classList.add("loaded");
+    }, 50);
+  };
+</script>
+<script src="front_path/js/vendor/polyfill.min.js"></script>
+<script src="front_path/js/vendor/jquery.min.js"></script>
+<script>
+  $(function () {
+    $.nette.init();
+  });
+</script>
+<script src="front_path/js/vendor/date-picker.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.8.6/pixi.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pixi-filters@2.6.1/dist/pixi-filters.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/debug.addIndicators.js"></script>
+<script src="front_path/js/main.js"></script>
+<script src="front_path/js/netteForms.js"></script>
+<script src="front_path/js/nette.ajax.js"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-69629556-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+
+  gtag('js', new Date());
+
+  gtag('config', 'UA-69629556-2');
+</script>
+
+
+</body>
+</html>
