@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap" rel="stylesheet">
-  <style> @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap'); </style>
-  <link type="image/x-icon" href="front_path/img/favicon.png" rel="shortcut icon">
-  <link type="Image/x-icon" href="front_path/img/favicon.png" rel="icon">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="LowHOUSE detailing, Moldova, Chisinau.">
+  <style> @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap'); </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,200,0,0" />
+  <link type="image/x-icon" href="front_path/img/favicon.png" rel="shortcut icon">
+  <link type="Image/x-icon" href="front_path/img/favicon.png" rel="icon">
   <title>LowHouse</title>
   <link rel="stylesheet" href="front_path/css/main.css">
 </head>
@@ -18,10 +20,14 @@
 <header class="navigation-bar">
   <div class="logo-wrapper">
     <div class="logo-inner">
-      <a class="logo" href="/"><img class="logo--desktop" src="front_path/img/logolh.png" alt="logo"><img class="logo--mobile" src="front_path/img/logolh.png" alt="small logo"></a>
+      <a class="logo" href="/"><img class="logo--desktop" src="front_path/img/logolh.webp" alt="logo"><img class="logo--mobile" src="front_path/img/logolh.webp" alt="small logo"></a>
     </div>
   </div>
-  <div class="link-wrapper"><a href="#">detailcenter</a></div>
+  <div class="link-wrapper">
+    <a class="call-us-button" href="tel:+37368387877">
+      <div class="call-us"><span class="material-symbols-outlined">call</span><span class="call-us-number">+373 68 387 877</span></div>
+    </a>
+  </div>
   <div class="button-wrapper">
     <button class="button button--golden button--prev float--left js-target-products"><span>Назад</span>
       <div class="icon-wrapper">
@@ -53,7 +59,7 @@
              data-rotation-angle="120"
              data-transition-time="0.3"
              data-velocity="13000"
-             data-image-src="front_path/img/menu/menu-home.png,front_path/img/menu/menu-services.png,front_path/img/menu/menu-about-us.png,front_path/img/menu/menu-detailing.png,front_path/img/menu/menu-tuning.png,front_path/img/menu/menu-wheels.png">
+             data-image-src="front_path/img/menu/menu-home.webp,front_path/img/menu/menu-services.webp,front_path/img/menu/menu-about-us.webp,front_path/img/menu/menu-detailing.webp,front_path/img/menu/menu-tuning.webp,front_path/img/menu/menu-wheels.webp">
         </div>
       </div>
     </div>
@@ -121,13 +127,7 @@
         </div>
       </div>
     </div>
-    <div class="homepage-header__inner cutted" data-component="background-image" data-image-src="front_path/img/background-header1.jpg" style="background-image: url(front_path/img/background-header1.jpg)">
-      <div class="side-phone">
-        <a class="side-phone__link" href="tel:++37368387877">
-          <span class="side-phone__link__text">Позвони нам</span>
-          <span class="side-phone__link__number">+373 68 387 877</span>
-        </a>
-      </div>
+    <div class="homepage-header__inner cutted" data-component="background-image" data-image-src="front_path/img/background-header1.webp" style="background-image: url(front_path/img/background-header1.webp)">
       <div class="slider-controls">
         <div class="slider-controls__number slider-controls__number--current">01</div>
         <div class="slider-controls__line"></div>
@@ -135,7 +135,7 @@
       </div>
       <div class="container">
         <div class="container">
-          <div class="homepage-header__image" data-component="image-slider" data-type="header" data-pieces-count="12" data-rotation-angle="120" data-transition-time="0.5" data-velocity="13000" data-image-src="front_path/img/try/car-1.png,front_path/img/try/car-2.jpg">
+          <div class="homepage-header__image" data-component="image-slider" data-type="header" data-pieces-count="12" data-rotation-angle="120" data-transition-time="0.5" data-velocity="13000" data-image-src="front_path/img/try/car-1.webp,front_path/img/try/car-2.webp">
             <div class="homepage-header__image__overlay"></div>
           </div>
         </div>
@@ -151,7 +151,7 @@
       <div class="fleet-wrapper">
         <div class="fleet-slider js-unfix-header">
           <a class="fleet-slider__item first" href="/services/detail">
-            <div class="fleet-slider-img" style="background-image: url(front_path/img/lease.png)">
+            <div class="fleet-slider-img" style="background-image: url(front_path/img/lease.webp)">
               <div class="fleet-slider__textg">
                 <span class="caption golden">01</span>
                 <h3 class="bigtitle">Детэйлинг</h3>
@@ -159,7 +159,7 @@
             </div>
           </a>
           <a class="fleet-slider__item" href="/services/tuning">
-            <div class="fleet-slider-img" style="background-image: url(front_path/img/finance.jpg)">
+            <div class="fleet-slider-img" style="background-image: url(front_path/img/finance.webp)">
               <div class="fleet-slider__textg">
                 <span class="caption golden">02</span>
                 <h3 class="bigtitle">Тюннинг</h3>
@@ -167,7 +167,7 @@
             </div>
           </a>
           <a class="fleet-slider__item last" href="/services/wheels">
-            <div class="fleet-slider-img" style="background-image: url(front_path/img/loan.jpg)">
+            <div class="fleet-slider-img" style="background-image: url(front_path/img/loan.webp)">
               <div class="fleet-slider__textg">
                 <span class="caption golden">03</span>
                 <h3 class="bigtitle">Диски</h3>
@@ -188,10 +188,10 @@
         </div>
       </div>
     </div>
-    <div class="skew-banner__overlay" style="background-image: url(front_path/img/banner-background-detail.jpg)">
+    <div class="skew-banner__overlay" style="background-image: url(front_path/img/banner-background-detail.webp)">
       <div class="skew-banner__overlay__cut right"></div>
     </div>
-    <img class="skew-banner__image js-frombot-transition" src="front_path/img/credit-card.png" alt="evan paul credit card">
+    <img class="skew-banner__image js-frombot-transition" src="front_path/img/credit-card.webp" alt="evan paul credit card">
   </section>
   <section class="homepage-text">
     <div class="homepage-text__wrapper">
@@ -203,7 +203,7 @@
     </div>
     <div class="container">
       <div class="image-block">
-        <div class="image-block__item image-block__item--left" data-component="image-cutter" data-rotation-angle="120" data-pieces-count="5" data-amplitude="10" data-velocity="13000" data-image-src="front_path/img/about-us.jpg"></div>
+        <div class="image-block__item image-block__item--left" data-component="image-cutter" data-rotation-angle="120" data-pieces-count="5" data-amplitude="10" data-velocity="13000" data-image-src="front_path/img/about-us.webp"></div>
         <div class="image-block__item image-block__item--right">
           <p class="js-clip-transition">Наша команда более 10 лет работает с автомобилями, автомобили которые за года
             собрали кубки на самых больших авто-выстовках Украины, Румынии и даже Польши.
@@ -222,7 +222,7 @@
       </div>
     </div>
     <div class="about-car-bottom">
-      <img class="about-car-bottom__img js-frombot-transition" src="front_path/img/bottom-car.png" alt="car"></div>
+      <img class="about-car-bottom__img js-frombot-transition" src="front_path/img/bottom-car.webp" alt="car"></div>
   </section>
   <section class="footer footer--extra-padding-top">
     <div class="footer-top">
@@ -240,7 +240,7 @@
               <path class="circle" stroke-dasharray="84, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"></path>
             </svg>
           </button>
-          <a class="footer-links__logo halfed" href="/"><img src="front_path/img/logolh.png" alt="small logo"></a>
+          <a class="footer-links__logo halfed" href="/"><img src="front_path/img/logolh.webp" alt="small logo"></a>
           <div class="footer-links__item"><a class="halfed" href="/">Главная</a></div>
           <div class="footer-links__item"><a class="halfed" href="/gallery">О нас</a></div>
         </div>
@@ -275,6 +275,7 @@
 <script src="front_path/js/main.js"></script>
 <script src="front_path/js/netteForms.js"></script>
 <script src="front_path/js/nette.ajax.js"></script>
+<script src="https://kit.fontawesome.com/6da2cfdedf.js" crossorigin="anonymous"></script>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-69629556-2"></script>
 <script>

@@ -8682,7 +8682,7 @@ a:hover, button:hover, .button:hover, .cursor-change:hover {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    max-width: 200px;
+    max-width: 450px;
     margin: 0 auto;
     -webkit-transition: opacity .3s ease-in-out;
     -o-transition: opacity .3s ease-in-out;
@@ -9211,6 +9211,49 @@ a:hover, button:hover, .button:hover, .cursor-change:hover {
 
 @media (max-width: 650px) {
     .side-phone {
+        display: none;
+    }
+}
+
+
+.side-phone {
+    position: absolute;
+    color: white;
+    z-index: 200;
+    right: -151px;
+    top: 46%;
+    width: 421px;
+    white-space: nowrap;
+    -webkit-transform: translateY(-50%) rotate(-90deg);
+    -ms-transform: translateY(-50%) rotate(-90deg);
+    transform: translateY(-50%) rotate(-90deg);
+}
+
+.header-phone__link {
+    text-decoration: none;
+    padding: 15px;
+}
+
+.header-phone__link__number, .header-phone__link__text {
+    font-size: 1.2rem;
+    line-height: 2;
+    letter-spacing: 5.6px;
+    font-weight: 300;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header-phone__link__number {
+    position: relative;
+}
+
+.header-phone__link__text {
+    opacity: 0.8;
+}
+
+@media (max-width: 650px) {
+    .header-phone {
         display: none;
     }
 }
@@ -11411,6 +11454,60 @@ form .group.onerow input {
     font-size: 16px;
     color: white;
     opacity: 0;
-    background: linear-gradient(0deg, rgba(0, 0, 0, .5) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.44) 0%, rgba(255, 255, 255, 0) 100%);
     transition: 0.3s;
+}
+
+.call-us {
+    font-family: 'Exo 2', sans-serif;
+    width: 200px;
+    height: 50px;
+    transform: skew(-20deg);
+    background: rgba(17, 17, 17, 0.4);
+    border: 3px solid rgba(166, 136, 75, 0.8);
+    font-size: 18px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-us-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 1024px) {
+    .call-us {
+        width: 120px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .material-symbols-outlined {
+        font-size: 18px;
+    }
+
+    .call-us-number {
+        margin-left: 5px
+    }
+}
+.call-us-number {
+    transform: skew(20deg);
+    margin-left: 10px
+}
+
+.material-symbols-outlined {
+    transform: skew(15deg);
+    font-variation-settings:
+            'FILL' 0,
+            'wght' 200,
+            'GRAD' 0,
+            'opsz' 48
 }
