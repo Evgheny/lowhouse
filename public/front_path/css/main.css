@@ -11485,7 +11485,7 @@ form .group.onerow input {
 
 @media (max-width: 1024px) {
     .call-us {
-        width: 120px;
+        width: 13rem;
         height: 30px;
         font-size: 10px;
     }
