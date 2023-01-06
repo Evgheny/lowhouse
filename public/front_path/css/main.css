@@ -11497,6 +11497,10 @@ form .group.onerow input {
     .call-us-number {
         margin-left: 5px
     }
+
+    .gallery__caption {
+        display: none;
+    }
 }
 .call-us-number {
     transform: skew(20deg);
